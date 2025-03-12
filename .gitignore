@@ -1,0 +1,4 @@
+DBT/
+SQLMesh/
+*.csv
+*.parquet
