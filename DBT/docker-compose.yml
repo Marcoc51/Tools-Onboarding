@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:14
+    restart: on-failure
+    container_name: postgres
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    # volumes:
+      # - ./Scripts/init-databases.sql:/docker-entrypoint-initdb.d/init-databases.sql
+      # - ./1. Week 1 - Docker, SQL & Terraform/Data:/data/Week1
+      # - ./3. Week 3 - Data Warehouse/Data:/data/Week3
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: on-failure
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=${PGADMIN_EMAIL}
+      - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_PASSWORD}
+    ports:
+      - "5050:80"
