@@ -56,3 +56,32 @@ Happy modeling!
 [0m08:06:57.931398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020789EB96F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002078BDA8EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002078BDA96C0>]}
 [0m08:06:57.931398 [debug] [MainThread]: Flushing usage events
 [0m08:06:58.653308 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:18:14.080107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018475A4B550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018477B79A80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018477B79C60>]}
+
+
+============================== 12:18:14.084106 | 1a30155e-ab36-4344-a6e5-e36dc09c627e ==============================
+[0m12:18:14.084106 [info ] [MainThread]: Running with dbt=1.9.3
+[0m12:18:14.085106 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\marco\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init sales_analytics', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:18:14.103106 [debug] [MainThread]: Starter project path: D:\Programming\My Work\Personal\Tools-Onboarding\DBT\dbt-env\lib\site-packages\dbt\include\starter_project
+[0m12:18:14.155106 [info ] [MainThread]: 
+Your new dbt project "sales_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:18:14.156106 [info ] [MainThread]: Setting up your profile.
+[0m12:20:35.352387 [info ] [MainThread]: Profile sales_analytics written to C:\Users\marco\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:20:35.354492 [debug] [MainThread]: Command `dbt init` succeeded at 12:20:35.354492 after 141.36 seconds
+[0m12:20:35.354492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018475A4B550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018477B79CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000184774E62F0>]}
+[0m12:20:35.355483 [debug] [MainThread]: Flushing usage events
+[0m12:20:36.070795 [debug] [MainThread]: An error was encountered while trying to flush usage events

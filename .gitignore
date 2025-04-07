@@ -1,3 +1,4 @@
 SQLMesh/
+DBT/dbt-env/
 *.csv
 *.parquet
